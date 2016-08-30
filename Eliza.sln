@@ -1,9 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliza", "Eliza\Eliza.csproj", "{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliza.Test", "Eliza.Test\Eliza.Test.csproj", "{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliza.Test", "Eliza.Test\Eliza.Test.csproj", "{5B59FABB-4E09-4C2C-B1E1-3A9D98F613F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliza.Console", "Eliza.Console\Eliza.Console.csproj", "{373D1310-F35A-44AA-B912-A535DF605F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBot", "WebBot\WebBot.csproj", "{1C4F6BE9-D1F4-4CF9-8372-9B1D1F736C5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +21,21 @@ Global
 		{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B59FABB-4E09-4C2C-B1E1-3A9D98F613F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B59FABB-4E09-4C2C-B1E1-3A9D98F613F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B59FABB-4E09-4C2C-B1E1-3A9D98F613F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B59FABB-4E09-4C2C-B1E1-3A9D98F613F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373D1310-F35A-44AA-B912-A535DF605F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373D1310-F35A-44AA-B912-A535DF605F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373D1310-F35A-44AA-B912-A535DF605F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373D1310-F35A-44AA-B912-A535DF605F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4F6BE9-D1F4-4CF9-8372-9B1D1F736C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4F6BE9-D1F4-4CF9-8372-9B1D1F736C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4F6BE9-D1F4-4CF9-8372-9B1D1F736C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4F6BE9-D1F4-4CF9-8372-9B1D1F736C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Eliza\Eliza.csproj
